@@ -1,0 +1,13 @@
+﻿<Action Name="GetMSGraphAccessToken" ClassName="GetMSGraphAccessToken.GetMSGraphAccessToken" Category="Microsoft Graph" AppliesTo="all">
+  <RuleDesigner Sentence="Retrieve access token for %1 (Output: %2)">
+    <!-- Define the UI widgets SharePoint designer should use for configuring this action -->
+    <FieldBind Id="1" Field="tenantId" Text="tenant" DesignerType="TextArea"></FieldBind>
+    <FieldBind Id="2" Field="accessToken" Text="access token" DesignerType="ParameterNames"></FieldBind>    
+  </RuleDesigner>
+  <Parameters>
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="tenantId" DisplayName="Tenant Id" DesignerType="StringBuilder" />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="clientId" DisplayName="Client Id" DesignerType="StringBuilder" />
+    <Parameter Type="System.String, mscorlib" Direction="In" Name="clientSecret" DisplayName="Client Secret" DesignerType="StringBuilder" />
+    <Parameter Type="System.String, mscorlib" Direction="Out" Name="accessToken" DisplayName="Access Token" DesignerType="ParameterNames" />
+  </Parameters>
+</Action>

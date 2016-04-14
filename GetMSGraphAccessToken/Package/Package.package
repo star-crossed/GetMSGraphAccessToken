@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="af22996b-617d-4932-a7fd-bd1fe8349891" solutionId="af22996b-617d-4932-a7fd-bd1fe8349891" resetWebServer="false" sharePointProductVersion="15.0" name="GetMSGraphAccessToken" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="16f896f0-2287-4d93-8235-1474f0ca8fa5" />
+  </features>
+</package>
